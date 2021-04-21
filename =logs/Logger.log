@@ -1,0 +1,112 @@
+2021-04-13 17:09:18.164  INFO 75525 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v2.4.4)[0;39m
+
+
+2021-04-13 17:09:18.194  INFO 75525 --- [main] com.shoppingcart.tree.Application        : Starting Application using Java 15.0.2 on GANABHAT-M-C3SK with PID 75525 (/Users/ganabhat/Desktop/fullstack/java/myJavaProjects1/ShoppingCart.V.1.0/target/classes started by ganabhat in /Users/ganabhat/Desktop/fullstack/java/myJavaProjects1/ShoppingCart.V.1.0)
+2021-04-13 17:09:18.194  INFO 75525 --- [main] com.shoppingcart.tree.Application        : No active profile set, falling back to default profiles: default
+2021-04-13 17:09:18.522  INFO 75525 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-13 17:09:18.563  INFO 75525 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 5 MongoDB repository interfaces.
+2021-04-13 17:09:18.802  INFO 75525 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-13 17:09:18.808  INFO 75525 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 17:09:18.808  INFO 75525 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 17:09:18.852  INFO 75525 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 17:09:18.853  INFO 75525 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 631 ms
+2021-04-13 17:09:18.939  INFO 75525 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-13 17:09:18.977  INFO 75525 --- [cluster-ClusterId{value='607582e65120e64b979719f2', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:5}] to localhost:27017
+2021-04-13 17:09:18.977  INFO 75525 --- [cluster-rtt-ClusterId{value='607582e65120e64b979719f2', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:6}] to localhost:27017
+2021-04-13 17:09:18.977  INFO 75525 --- [cluster-ClusterId{value='607582e65120e64b979719f2', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12960566}
+2021-04-13 17:09:19.252  INFO 75525 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 17:09:19.368  INFO 75525 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-13 17:09:19.383  INFO 75525 --- [main] com.shoppingcart.tree.Application        : Started Application in 1.435 seconds (JVM running for 1.882)
+2021-04-13 17:09:55.274  INFO 75525 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-13 17:09:55.291  INFO 75525 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 17:10:02.312  INFO 75655 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v2.4.4)[0;39m
+
+
+2021-04-13 17:10:02.344  INFO 75655 --- [main] com.shoppingcart.tree.Application        : Starting Application using Java 15.0.2 on GANABHAT-M-C3SK with PID 75655 (/Users/ganabhat/Desktop/fullstack/java/myJavaProjects1/ShoppingCart.V.1.0/target/classes started by ganabhat in /Users/ganabhat/Desktop/fullstack/java/myJavaProjects1/ShoppingCart.V.1.0)
+2021-04-13 17:10:02.344  INFO 75655 --- [main] com.shoppingcart.tree.Application        : No active profile set, falling back to default profiles: default
+2021-04-13 17:10:02.693  INFO 75655 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-13 17:10:02.734  INFO 75655 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 5 MongoDB repository interfaces.
+2021-04-13 17:10:02.959  INFO 75655 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-13 17:10:02.965  INFO 75655 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 17:10:02.965  INFO 75655 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 17:10:03.007  INFO 75655 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 17:10:03.007  INFO 75655 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 634 ms
+2021-04-13 17:10:03.090  INFO 75655 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-13 17:10:03.125  INFO 75655 --- [cluster-ClusterId{value='60758313b2e06020c6ad6a3a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017
+2021-04-13 17:10:03.125  INFO 75655 --- [cluster-rtt-ClusterId{value='60758313b2e06020c6ad6a3a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:8}] to localhost:27017
+2021-04-13 17:10:03.125  INFO 75655 --- [cluster-ClusterId{value='60758313b2e06020c6ad6a3a', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11701908}
+2021-04-13 17:10:03.403  INFO 75655 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 17:10:03.522  INFO 75655 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-13 17:10:03.528  INFO 75655 --- [main] com.shoppingcart.tree.Application        : Started Application in 1.438 seconds (JVM running for 1.87)
+2021-04-13 17:18:25.550  INFO 75655 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-13 17:18:25.577  INFO 75655 --- [RMI TCP Connection(18)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 17:18:52.883  INFO 77052 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v2.4.4)[0;39m
+
+
+2021-04-13 17:18:52.915  INFO 77052 --- [main] com.shoppingcart.tree.Application        : Starting Application using Java 15.0.2 on GANABHAT-M-C3SK with PID 77052 (/Users/ganabhat/Desktop/fullstack/java/myJavaProjects1/ShoppingCart.V.1.0/target/classes started by ganabhat in /Users/ganabhat/Desktop/fullstack/java/myJavaProjects1/ShoppingCart.V.1.0)
+2021-04-13 17:18:52.915  INFO 77052 --- [main] com.shoppingcart.tree.Application        : No active profile set, falling back to default profiles: default
+2021-04-13 17:18:53.288  INFO 77052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-13 17:18:53.335  INFO 77052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 5 MongoDB repository interfaces.
+2021-04-13 17:18:53.586  INFO 77052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-13 17:18:53.592  INFO 77052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 17:18:53.593  INFO 77052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 17:18:53.637  INFO 77052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 17:18:53.637  INFO 77052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 690 ms
+2021-04-13 17:18:53.723  INFO 77052 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-13 17:18:53.761  INFO 77052 --- [cluster-ClusterId{value='60758525279c2f7eed090879', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:9}] to localhost:27017
+2021-04-13 17:18:53.761  INFO 77052 --- [cluster-rtt-ClusterId{value='60758525279c2f7eed090879', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:10}] to localhost:27017
+2021-04-13 17:18:53.761  INFO 77052 --- [cluster-ClusterId{value='60758525279c2f7eed090879', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12706980}
+2021-04-13 17:18:54.048  INFO 77052 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 17:18:54.169  INFO 77052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-13 17:18:54.175  INFO 77052 --- [main] com.shoppingcart.tree.Application        : Started Application in 1.58 seconds (JVM running for 2.087)
+2021-04-13 17:34:22.178  INFO 77052 --- [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-13 17:34:22.195  INFO 77052 --- [RMI TCP Connection(24)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 17:36:22.470  INFO 79726 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v2.4.4)[0;39m
+
+
+2021-04-13 17:36:22.517  INFO 79726 --- [main] com.shoppingcart.tree.Application        : Starting Application using Java 15.0.2 on GANABHAT-M-C3SK with PID 79726 (/Users/ganabhat/Desktop/fullstack/java/myJavaProjects1/ShoppingCart.V.1.0/target/classes started by ganabhat in /Users/ganabhat/Desktop/fullstack/java/myJavaProjects1/ShoppingCart.V.1.0)
+2021-04-13 17:36:22.518  INFO 79726 --- [main] com.shoppingcart.tree.Application        : No active profile set, falling back to default profiles: default
+2021-04-13 17:36:22.965  INFO 79726 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-13 17:36:23.023  INFO 79726 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 5 MongoDB repository interfaces.
+2021-04-13 17:36:23.384  INFO 79726 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-13 17:36:23.391  INFO 79726 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-13 17:36:23.391  INFO 79726 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-13 17:36:23.452  INFO 79726 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-13 17:36:23.452  INFO 79726 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 900 ms
+2021-04-13 17:36:23.591  INFO 79726 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-13 17:36:23.639  INFO 79726 --- [cluster-rtt-ClusterId{value='6075893f01cd1f1ed785faca', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:12}] to localhost:27017
+2021-04-13 17:36:23.639  INFO 79726 --- [cluster-ClusterId{value='6075893f01cd1f1ed785faca', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:11}] to localhost:27017
+2021-04-13 17:36:23.639  INFO 79726 --- [cluster-ClusterId{value='6075893f01cd1f1ed785faca', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=15826844}
+2021-04-13 17:36:23.981  INFO 79726 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 17:36:24.136  INFO 79726 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-13 17:36:24.144  INFO 79726 --- [main] com.shoppingcart.tree.Application        : Started Application in 2.004 seconds (JVM running for 2.481)
+2021-04-13 19:36:00.290  INFO 79726 --- [RMI TCP Connection(39)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-13 19:36:00.361  INFO 79726 --- [RMI TCP Connection(39)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
